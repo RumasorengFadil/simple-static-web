@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Omburger Store</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <h1 class="logo"><span class="logo__icn">OmBurger</span></h1>
+                <div class="dr-down hidden">
+                    <a class="dr-down__item" href="#history">Our Story</a>
+                    <a class="dr-down__item" href="#">Our Product</a>
+                    <a class="dr-down__item" href="#bio">Personal Data</a>
+                    <a class="dr-down__item dr-down__shopping" href="#">Shopping</a>
+                </div>
+                <div class="cart"><img class="cart__icn" src="/icons/shopping-cart.svg"></img></div>
+                <div class="menu"><img class="menu__icn" src="/icons/menu.svg" alt=""></div>
+                <div class="x hidden"><img class="menu__icn" src="/icons/x.svg" alt=""></div>
+                <div class="overlay hidden"></div>
+            </nav>
+        </header>
+
+        <main>
+            <article class="greet">
+                <h1 class="greet__restaurant-name">Omburger</h1>
+                <figcaption class="greet__slogan">Burger dengan cita rasa unik</figcaption>
+                <button class="greet__button">Buy Now</button>
+            </article>
+            <article id="history" class="history">
+                <div class="history__content">
+                    <h2 class="history__judul">History</h2>
+                    <p class="history__paragraf">Omburger merupakan salah satu burger yang terkenal di kota bandung, burger ini dapat dikatakan burger legend dikarenakan sudah berdiri selama 20 tahun.</p>
+                </div>
+                <div class="history__image"></div>
+            </article>
+            <article class="alasan">
+                <div class="alasan__content">
+                    <h2 class="alasan__judul">Mengapa beli di OmBurger</h2>
+                    <p class="alasan__paragraf">OmBurger diklaim sebagai burger dengan rasa nomor satu di kota bandung dan bukan cuma itu, harganya juga terjangkau</p>
+                </div>
+                <div class="alasan__image"></div>
+            </article>
+            <aside class="bio" id="bio">
+                <div class="bio__personal">
+                    <h2 class="bio__judul">Personal Data</h2>
+                    <img class="bio__gambar" src="/img/siluet.jpg" alt="">
+                    <ul class="bio__datadiri">
+                        <li class="bio__item">Nama : Fadil Hijayat</li>
+                        <li class="bio__item">Usia : 19</li>
+                        <li class="bio__item">Pendidikan Terakhir : SMA</li>
+                        <li class="bio__item">Warga Negara : Indonesia</li>
+                        <li class="bio__item">Alamat : Ambon, Jl. Pinang Putih Bawah</li>
+                    </ul>
+                </div>
+                <div class="bio__image"></div>
+            </aside>    
+        </main>
+
+        <footer class="footer">
+            <h3 class="footer__judul">OmBurger</h3>
+            <div class="footer__content">
+                <img src="/icons/instagram.svg" alt="">
+                <div class="footer__medsos">
+                    <span>@OmBurger</span>
+                </div>
+            </div>
+            <div class="footer__content">
+                <img src="/icons/facebook.svg" alt="">
+                <div class="footer__medsos">
+                    <span>@OmBurger21</span>
+                </div>
+            </div>
+            <div class="footer__content">
+                <img src="/icons/twitter.svg" alt="">
+                <div class="footer__medsos">
+                    <span>@OmBurgerOm</span>
+                </div>
+            </div>
+            <div class="footer__content">
+                <img src="/icons/compass.svg" alt="">
+                <div class="footer__medsos">
+                    <span>@JL. Pinang Putih Bawab RT04/RW06</span>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
